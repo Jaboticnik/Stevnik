@@ -1,0 +1,45 @@
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://images.wallpaperscraft.com/image/single/grass_light_bright_nature_75680_1920x1080.jpg");
+}
+
+.sredina {
+    text-align: center;
+   }
+
+#pritiskalnik {
+    top: 10rem;
+    left: 58rem;
+    font-family: 'Courier New', Courier, monospace;
+    background: green;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#pritiskalnik:hover {
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+#pritiskalnik:active {
+    opacity: 0.6;
+    cursor:wait;
+}
